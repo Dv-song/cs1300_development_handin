@@ -1,0 +1,63 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #143c8a; /* Sky Blue */
+}
+
+h2 {
+  font-size: 2em;
+  color: #1b55c0; /* Green */
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #1368b7; /* Purple */
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #14426d;
+}
+
+p {
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* Centers the image */
+  max-width: 80%; /* Limits the maximum width of the image to 80% of its container */
+  height: auto; /* Keeps the image's aspect ratio */
+  border-radius: 8px; /* Optional: Adds a slight rounding to the corners for a softer look */
+}
+
+header {
+  background: #34495e; /* Dark Blue */
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+section {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

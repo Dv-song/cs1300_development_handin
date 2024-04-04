@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Development Assignment Handin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Part1">
+      <h1>CS1300: Development Assignment Handin</h1>
+
+      <h2>Project Overview</h2>
+      <p>
+        The development assignment had two main objectives. First, students were
+        asked to perform a competitive analysis of three different websites
+        featuring a favoriting function. Second, we were tasked with
+        implementing a similar website using React components and props,
+        incorporating functionality features such as sorting, filtering, and
+        aggregating. Throughout the project, I carefully analyzed three
+        platforms to develop a competitive comparison chart, through which I
+        learned how those platforms designed their 'liking,' sorting, filtering,
+        and aggregating functionalities.Then, I used react to develop a simple
+        webapp with similar functionality features.
+      </p>
+
+      <h3>Development</h3>
+      <p>
+        React, HTML, CSS, Next.js, and Vercel are used for development and
+        deployment. Item data and images are mock data stored in a JSON file
+        since backend implementation was not within the scope of the project.
+      </p>
+
+      <h2>Part1: Competitive Analysis</h2>
+      <h4>Three Websites</h4>
+      <ul>
+        <li><a href="https://open.spotify.com/">Spotify</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://www.airbnb.com/">Airbnb</a></li>
+      </ul>
+
+      <p>
+        Note: For the three platforms, you should log in to see the aggregator
+        and like features with full workflow.
+      </p>
+
+      <p>
+        After selecting the three platforms, general workflow of "favoriting" or
+        saving items on each platform was examined resulting in the following
+        competitive comparison chart below.
+      </p>
+
+      <h4>Competitive Comparison Chart</h4>
+      <img src="images/Frame 17.png" alt="" />
+      <h4>Chart Overview:</h4>
+      <p>
+        Overall, the user journey of "liking" or "saving" items on the three
+        platforms differs based on what they are optimizing for. Specifically,
+        YouTube and Spotify offer comprehensive sorting and collection workflows
+        for users’ playlists which contain songs or videos. In contrast,
+        Airbnb—focusing on the initial browsing and searching experience—has
+        minimal sorting and customization options for personal "wishlists". For
+        all three, the overall processes of liking or "saving" items are
+        effectively identical; users select the like or save button and decide
+        on the playlist or wishlist. <br />
+        <br />
+        The most successful features arise from addressing users' primary needs
+        for each platform. For Spotify, advanced sorting options within users'
+        playlists (collections of liked songs) by mood and vibe—e.g., upbeat,
+        classy, etc.—in addition to conventional sorting by artist name, album,
+        and recent, enable users to quickly revisit their favorites that fit
+        their current states(<b
+          >Optimizing for "F" skim pattern and idea of continuity</b
+        >). On the other hand, Airbnb offers a map view on the right side of the
+        wishlist, which enables users to check proximity along with prices(<b>
+          connects back to proximity grouping principle</b
+        >), despite no sorting or search within the lists. For YouTube, the
+        customizability and sorting functionalities lie between Spotify and
+        Airbnb. However, YouTube’s user playlist's option to sort by popularity,
+        recent, or manual sorting reflects the users' primary goal of consuming
+        viral or relevant video content. <br />
+        <br />
+        For Spotify, aggregated lists of podcasts lack advanced sorting, which
+        can be inefficient when users save many podcast episodes. Similarly,
+        Airbnb's lack of integrated sorting or search functionalities within
+        their wishlists can result in a suboptimal user experience if users have
+        liked or saved many candidates (although this could be intentional,
+        coupled with the initial search and browsing experience).
+      </p>
+
+      <h4>My Development Goals & Inspirations</h4>
+      <p>
+        From the analysis, I quickly learned that sorting and filtering should
+        be optimized for the user's main goal for the particular platform or
+        service. However, sorting by fundamental attributes such as prices or
+        ratings is an important requirement. By examining the commonalities as
+        well as differences, I developed specifications that meet the project
+        requirements, which are explained in detail in the next section.
+      </p>
+    </div>
+
+    <h2>Part2: Development</h2>
+    <h3>About Dave's Book Club</h3>
+    <p>
+      After performing the competitive analysis in part 1, I have learned about
+      the fundamental features a platform needs to support aggregating,
+      filtering, and sorting. Since the objective of the assignment is to
+      utilize front-end skills (making use of props, components, and states), I
+      have decided to develop a simple book listing website. On the website,
+      visitors can view a list of books from my favorites as well as some
+      bestseller books I found on Amazon. <br />
+
+      <br />
+      To meet the functionality requirements, users can filter books based on
+      two categories: book format (Kindle vs. paper) and source of
+      recommendation (Dave's Favorites vs. Amazon Bestsellers). Users can also
+      sort the list by various attributes such as publication date, price, and
+      rating in ascending or descending order. Liking a book by pressing the
+      heart icon will simply add the book to your favorites list. When one
+      presses the 'add to cart' button, the cart aggregator will be updated.
+    </p>
+
+    <h3>
+      Project:
+      <a href="https://cs1300-development-three.vercel.app/">Link Here!</a>
+    </h3>
+  </body>
+</html>
