@@ -6,6 +6,8 @@ body {
   padding: 0;
   padding: 20px;
   background-color: #f4f4f4;
+  max-width: 80%;
+  margin: 0rem auto; 
 }
 
 h1,

@@ -95,12 +95,41 @@
         service. However, sorting by fundamental attributes such as prices or
         ratings is an important requirement. By examining the commonalities as
         well as differences, I developed specifications that meet the project
-        requirements, which are explained in detail in the next section.
+        requirements.
       </p>
+
+      <h4>List of Features</h4>
+      <p>
+        Here is a list of features I wanted to implement when designing the web
+        app.
+      </p>
+
+      <ul>
+        <li>Can filter or sort books by key attributes such as:</li>
+        <ul>
+          <li>Price</li>
+          <li>Book Rating</li>
+          <li>Type(kindle, paper)</li>
+          <li>Published Date</li>
+          <li>Source Type (from Dave's Favorites vs. Amazon's Bestseller)</li>
+        </ul>
+        <li>Can like or remove liks from books.</li>
+        <li>Can display a list of liked books.</li>
+        <li>Can add books into a cart aggreagator to purchase them.</li>
+        <li>
+          Can display changes in the totla price and cart content reactively as
+          user adds items.
+        </li>
+        <li>Can reset filters and clear the cart.</li>
+      </ul>
     </div>
 
     <h2>Part2: Development</h2>
     <h3>About Dave's Book Club</h3>
+    <img
+      src="images/DaveBC.png"
+      alt="Image of Implemented version of Dave's Book Club"
+    />
     <p>
       After performing the competitive analysis in part 1, I have learned about
       the fundamental features a platform needs to support aggregating,
@@ -120,9 +149,24 @@
       presses the 'add to cart' button, the cart aggregator will be updated.
     </p>
 
+    <p>
+      Image below displays reactive changes in two aggretators (cart and likes).
+    </p>
+    <img src="images/likencart.png" alt="" />
+
     <h3>
       Project:
       <a href="https://cs1300-development-three.vercel.app/">Link Here!</a>
     </h3>
+
+    <h3>Conclusion</h3>
+    Throughout the development assignment project, I learned about the insights
+    and detailed comparisons I could gather while performing a competitive
+    analysis. It was a bit surprising to see that a large company like Airbnb
+    has a relatively simple aggregator compared to YouTube or Spotify. For
+    future exploration, I would love to implement the backend side as well as
+    some of the advanced sorting algorithms like those of Spotify that can
+    classify books into different classes based on various attributes and
+    information available.
   </body>
 </html>
